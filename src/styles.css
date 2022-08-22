@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Marvel';
+	src: url(../Fonts/marvel\ 2.otf);
+}
+
+* {
+	font-size: 10px;
+}
+
+body {
+	background-color: black;
+}
+
+.page-title {
+	font-size: 15rem;
+	font-family: 'Marvel';
+	background-image: url(../Photos/Marvel-Flip.gif);
+	background-size: 40%;
+	background-repeat: repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
