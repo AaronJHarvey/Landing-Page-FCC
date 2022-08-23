@@ -11,20 +11,38 @@
 	box-sizing: border-box;
 }
 
-#header-img {
-	width: 5vw;
+#header-container {
+	display: flex;
+	gap: 30px;
 	animation: marvel 10s;
 	animation-fill-mode: forwards;
+	width: 600px;
+	/* width: 43vw;
+	height: 25vh; */
+}
+
+#header-img {
+	width: 10%;
+	height: 15%;
+	/* animation: marvel 10s; */
+	animation-fill-mode: forwards;
+}
+
+.header-text {
+	align-self: flex-end;
+	font-size: 10rem;
+	font-family: 'Marvel';
+	font-weight: lighter;
 }
 
 @keyframes marvel {
 	0% {
 		background-image: url(../Photos/Marvel-Flip.gif);
-		background-size: 25vh;
+		background-size: 100%;
 	}
 
 	100% {
 		background-image: url(../Photos/space.jpg);
-		background-size: 25vh;
+		background-size: 100%;
 	}
 }
