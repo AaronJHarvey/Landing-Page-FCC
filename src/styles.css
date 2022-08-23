@@ -10,8 +10,8 @@
 	box-sizing: border-box;
 }
 
-.page-title {
-	font-size: 15rem;
+.header-text {
+	font-size: 10rem;
 	font-family: 'Marvel';
 	animation: effect 10s;
 	animation-fill-mode: forwards;
@@ -26,13 +26,14 @@
 }
 
 /* #header-img-container {
+	size: 10rem;
 	background-color: green;
 	animation: marvel-unlimited 10s;
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
-} */
+}
 
-/* @keyframes marvel-unlimited {
+@keyframes marvel-unlimited {
 	0% {
 		background-image: url(../Photos/Marvel-Flip.gif);
 		background-size: 75%;
