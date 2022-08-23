@@ -22,7 +22,7 @@
 	padding-bottom: .5%;
 	/* width: 43vw;
 	height: 25vh; */
-	min-width: 216px;
+	min-width: 648px;
 }
 
 #header-img {
@@ -34,7 +34,8 @@
 
 .header-text {
 	align-self: flex-end;
-	font-size: 6.65vw;
+	font-size: 96px;
+	/* font-size: 6.65vw; */
 	font-family: 'Marvel';
 	font-weight: lighter;
 	-webkit-text-stroke-width: 1px;
@@ -53,5 +54,19 @@
 	100% {
 		background-image: url(../Photos/space.jpg);
 		background-size: 100%;
+	}
+}
+
+@media (max-width: 575px) {
+	.header-text {
+		align-self: flex-end;
+		font-size: 80px;
+		font-family: 'Marvel';
+		font-weight: lighter;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: white;
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
 	}
 }
