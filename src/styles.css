@@ -13,10 +13,13 @@
 
 #header-container {
 	display: flex;
-	gap: 30px;
+	gap: 2vw;
 	animation: marvel 10s;
 	animation-fill-mode: forwards;
-	width: 600px;
+	width: 45vw;
+	padding-left: 1.5%;
+	padding-top: .5%;
+	padding-bottom: .5%;
 	/* width: 43vw;
 	height: 25vh; */
 }
@@ -30,7 +33,7 @@
 
 .header-text {
 	align-self: flex-end;
-	font-size: 10rem;
+	font-size: 6.65vw;
 	font-family: 'Marvel';
 	font-weight: lighter;
 	-webkit-text-stroke-width: 1px;
