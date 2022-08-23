@@ -10,3 +10,21 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+#header-img {
+	width: 5vw;
+	animation: marvel 10s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes marvel {
+	0% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 25vh;
+	}
+
+	100% {
+		background-image: url(../Photos/space.jpg);
+		background-size: 25vh;
+	}
+}
