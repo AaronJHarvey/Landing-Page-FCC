@@ -4,56 +4,9 @@
 }
 
 * {
+	border: 1px solid black;
 	font-size: 10px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-.header-text {
-	font-size: 10rem;
-	font-family: 'Marvel';
-	animation: effect 10s;
-	animation-fill-mode: forwards;
-	background-size: 45%;
-	background-repeat: repeat;
-	background-clip: text;
-	-webkit-background-clip: text;
-	color: transparent;
-	font-weight: lighter;
-	margin-bottom: 0;
-	margin-top: 15px;
-}
-
-/* #header-img-container {
-	size: 10rem;
-	background-color: green;
-	animation: marvel-unlimited 10s;
-	animation-fill-mode: forwards;
-	background-repeat: no-repeat;
-}
-
-@keyframes marvel-unlimited {
-	0% {
-		background-image: url(../Photos/Marvel-Flip.gif);
-		background-size: 75%;
-	}
-
-	100% {
-		background-image: url(../Photos/space.jpg);
-		background-size: 100%;
-	}
-} */
-
-@keyframes effect {
-	0% {
-		background-image: url(../Photos/Marvel-Flip.gif);
-		-webkit-background-clip: text;
-	}
-
-	100% {
-		background-image: url(../Photos/space.jpg);
-		-webkit-background-clip: text;
-		background-size: 15%;
-	}
 }
