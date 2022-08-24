@@ -4,7 +4,7 @@
 }
 
 * {
-	border: 1px solid black;
+	border: .25px solid black;
 	font-size: 10px;
 	margin: 0;
 	padding: 0;
@@ -24,6 +24,8 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position: e;
+	top: 0;
 }
 
 #header-container {
