@@ -17,6 +17,13 @@ header {
 	gap: 2vw;
 }
 
+#nav-bar {
+	width: 55vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 #header-container {
 	display: flex;
 	gap: 2vw;
