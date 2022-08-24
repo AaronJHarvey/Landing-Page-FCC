@@ -11,6 +11,12 @@
 	box-sizing: border-box;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	gap: 2vw;
+}
+
 #header-container {
 	display: flex;
 	gap: 2vw;
@@ -26,16 +32,14 @@
 }
 
 #header-img {
-	width: 10%;
-	height: 15%;
-	/* animation: marvel 10s; */
+	height: 111px;
+	width: 70px;
 	animation-fill-mode: forwards;
 }
 
 .header-text {
 	align-self: flex-end;
 	font-size: 96px;
-	/* font-size: 6.65vw; */
 	font-family: 'Marvel';
 	font-weight: lighter;
 	-webkit-text-stroke-width: 1px;
