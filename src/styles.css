@@ -4,7 +4,7 @@
 }
 
 * {
-	/* border: .25px solid black; */
+	border: .25px solid black;
 	font-size: 10px;
 	box-sizing: border-box;
 }
@@ -43,14 +43,15 @@ header {
 	transform: scale(1, 1.4);
 }
 
-/* .nav-bar-div {
-	display: flex;
-
-} */
-
 .nav-bar-list {
 	display: flex;
 	width: 50vw;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.nav-bar-item {
+	display: list-item;
+	list-style: none;
+	min-height: 8.2vh;
 }
