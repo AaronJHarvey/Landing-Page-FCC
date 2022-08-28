@@ -29,6 +29,7 @@ header {
 	height: 10vh;
 	width: 50vw;
 	gap: 10px;
+	min-width: 355px;
 }
 
 #header-img {
@@ -45,6 +46,10 @@ header {
 	transform: scale(1, 1.4);
 }
 
+#nav-bar {
+	min-width: 365px;
+}
+
 .nav-bar-list {
 	display: flex;
 	width: 50vw;
@@ -56,6 +61,7 @@ header {
 	display: flex;
 	list-style: none;
 	min-height: 7vh;
+	min-width: 60px;
 }
 
 .nav-bar-item a:hover {
@@ -70,8 +76,11 @@ header {
 	color: black;
 	font-size: 35px;
 	font-family: 'marvel';
+	min-width: 60px;
 }
 
 .container {
 	padding-top: 100px;
 }
+
+/* Add @media for width <700px */
