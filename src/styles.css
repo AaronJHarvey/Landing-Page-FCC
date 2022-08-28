@@ -17,7 +17,8 @@ header {
 	position: fixed;
 	top: 0;
 	justify-content: space-around;
-	height: 75px;
+	min-height: 75px;
+	background-color: blue;
 }
 
 .logo {
@@ -69,4 +70,8 @@ header {
 	color: black;
 	font-size: 35px;
 	font-family: 'marvel';
+}
+
+.container {
+	padding-top: 100px;
 }
