@@ -122,4 +122,30 @@ header {
 	margin: auto;
 }
 
+@keyframes marvel {
+	0% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 90vh;
+		opacity: 100%;
+	}
+
+	50% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 90vh;
+		opacity: 90%;
+	}
+
+	75% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 90vh;
+		opacity: 50%;
+	}
+
+	100% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 90vh;
+		opacity: 0%;
+	}
+}
+
 /* Add @media for width <700px */
