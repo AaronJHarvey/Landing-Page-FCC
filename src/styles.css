@@ -96,25 +96,36 @@ header {
 .main-logo-container {
 	/* border: 2px solid red; */
 	margin-left: auto;
-	height: 28vh;
-	width: auto;
+	height: 30vh;
+	width: 25vw;
 	margin-right: auto;
-
 	display: flex;
 	flex-wrap: wrap;
-
 	max-width: 500px;
+	padding: 5px 0;
 }
 
-.main-logo-container:hover {
-	background-image: url(../Photos/Marvel-Flip.gif);
-}
+/* .main-logo-container:hover {
+	animation: marvel 10s;
+	border-radius: 100px;
+} */
 
 #logo-top {
 	height: 100%;
 	margin: auto;
 }
 
+@keyframes marvel {
+	0% {
+		background-image: url(../Photos/Marvel-Flip.gif);
+		background-size: 70vh;
+	}
+
+	100% {
+		background-image: url(../Photos/space.jpg);
+		background-size: 100%;
+	}
+}
 /* potentially make logo top the only thing visible until hover */
 
 /* #logo-bottom {
