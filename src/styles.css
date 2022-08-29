@@ -89,10 +89,18 @@ header {
 	height: 70vh;
 	width: 50vw;
 	margin-right: auto;
-	/* background-color: green; */
+	background-color: green;
 	display: flex;
+	flex-wrap: wrap;
 	min-width: 450px;
 	max-width: 560px;
+}
+
+#logo-top {
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
 }
 
 #logo-bottom {
