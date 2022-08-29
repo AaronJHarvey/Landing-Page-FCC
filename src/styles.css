@@ -19,11 +19,15 @@ body {
 header {
 	padding: 0;
 	margin: 0;
+	padding-bottom: 5px;
 	display: flex;
 	position: fixed;
 	top: 0;
 	justify-content: space-around;
 	min-height: 75px;
+	background-color: rgba(89, 74, 74, 0.389);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 	/* background-color: blue; */
 }
 
@@ -90,21 +94,24 @@ header {
 }
 
 .main-logo-container {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	margin-left: auto;
-	height: 70vh;
-	width: 50vw;
+	height: 28vh;
+	width: auto;
 	margin-right: auto;
-	/* background-color: green; */
+
 	display: flex;
 	flex-wrap: wrap;
-	min-width: 450px;
-	max-width: 560px;
-	/* background-image: url(../Photos/Marvel-Flip.gif); */
+
+	max-width: 500px;
+}
+
+.main-logo-container:hover {
+	background-image: url(../Photos/Marvel-Flip.gif);
 }
 
 #logo-top {
-	height: 35%;
+	height: 100%;
 	margin: auto;
 }
 
