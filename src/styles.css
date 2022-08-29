@@ -4,7 +4,7 @@
 }
 
 * {
-	/* border: .25px solid black; */
+	border: .25px solid black;
 	font-size: 10px;
 	box-sizing: border-box;
 	margin: 0;
@@ -81,6 +81,16 @@ header {
 
 .container {
 	padding-top: 100px;
+}
+
+.main-logo-container {
+	margin-left: auto;
+	height: 50vh;
+	width: 50vw;
+	margin-right: auto;
+
+	background-color: green;
+	margin-bottom: 50px;
 }
 
 /* Add @media for width <700px */
