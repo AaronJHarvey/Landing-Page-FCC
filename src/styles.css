@@ -11,9 +11,11 @@
 }
 
 body {
-	background-image: url(../Photos/Marvel-Collage.jpg);
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(rgba(60, 60, 158, 0.749), rgba(17, 52, 112, 0.701)),
+		url(../Photos/Marvel-Collage.jpg);
 }
-
 header {
 	padding: 0;
 	margin: 0;
