@@ -94,48 +94,32 @@ header {
 }
 
 .main-logo-container {
-	/* border: 2px solid red; */
-	margin-left: auto;
-	height: 30vh;
-	width: 25vw;
-	margin-right: auto;
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 500px;
-	padding: 5px 0;
+	position: relative;
 }
 
-/* .main-logo-container:hover {
-	animation: marvel 10s;
-	border-radius: 100px;
-} */
+.initial-gif,
+.HiddenFor10Seconds {
+	position: absolute;
+	height: 35vh;
+	width: 20vw;
+	max-width: 500px;
+	padding: 10px 0;
+	border-radius: 130px;
+	left: 25%;
+}
 
-#logo-top {
-	height: 100%;
+.initial-gif {
+	animation: marvel 10s ease-out;
+	z-index: 1;
+}
+
+.HiddenFor10Seconds {
+	display: flex;
+}
+
+.HiddenFor10Seconds #HiddenFor10Seconds {
+	height: 90%;
 	margin: auto;
 }
-
-@keyframes marvel {
-	0% {
-		background-image: url(../Photos/Marvel-Flip.gif);
-		background-size: 70vh;
-	}
-
-	100% {
-		background-image: url(../Photos/space.jpg);
-		background-size: 100%;
-	}
-}
-/* potentially make logo top the only thing visible until hover */
-
-/* #logo-bottom {
-	display: flex;
-	height: 50%;
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-	align-self: flex-end;
-	margin-bottom: -12px;
-} */
 
 /* Add @media for width <700px */
