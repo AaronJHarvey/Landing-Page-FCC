@@ -4,10 +4,14 @@
 }
 
 * {
-	border: .25px solid black;
+	/* border: .25px solid black; */
 	font-size: 10px;
 	box-sizing: border-box;
 	margin: 0;
+}
+
+body {
+	background-image: url(../Photos/Marvel-Collage.jpg);
 }
 
 header {
@@ -18,7 +22,7 @@ header {
 	top: 0;
 	justify-content: space-around;
 	min-height: 75px;
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 .logo {
@@ -89,7 +93,7 @@ header {
 	height: 70vh;
 	width: 50vw;
 	margin-right: auto;
-	background-color: green;
+	/* background-color: green; */
 	display: flex;
 	flex-wrap: wrap;
 	min-width: 450px;
@@ -98,15 +102,13 @@ header {
 }
 
 #logo-top {
-	height: 49%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
+	height: 35%;
+	margin: auto;
 }
 
 /* potentially make logo top the only thing visible until hover */
 
-#logo-bottom {
+/* #logo-bottom {
 	display: flex;
 	height: 50%;
 	width: 95%;
@@ -114,6 +116,6 @@ header {
 	margin-right: auto;
 	align-self: flex-end;
 	margin-bottom: -12px;
-}
+} */
 
 /* Add @media for width <700px */
