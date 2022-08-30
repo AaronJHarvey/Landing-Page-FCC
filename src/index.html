@@ -56,5 +56,16 @@
     
         <!-- </div>  -->
         
+
+<script>var els = document.querySelectorAll('.nav-bar-item');
+[].forEach.call(els, function(el) {
+	el.addEventListener('click', function() {
+		[].forEach.call(els, function(clk) {
+			clk.classList.remove('active');
+		});
+		el.classList.add('active');
+	});
+});</script>
+
 </body>
 </html>
