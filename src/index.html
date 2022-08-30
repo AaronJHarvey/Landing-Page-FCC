@@ -57,13 +57,21 @@
         <!-- </div>  -->
         
 
-<script>var els = document.querySelectorAll('.nav-bar-item');
+<script>
+var els = document.querySelectorAll('.nav-bar-item');
+// creates a variable of els and sets it equal to an array of all the .nav-bar-item elements on the page
+
 [].forEach.call(els, function(el) {
+    // calls for each and call on an array, passes the els variable into the array (meaning it will call a function on each of the items in that els array), calls function(passing an element from the array into it. 
 	el.addEventListener('click', function() {
+        // adds an event listener to the element passed into the function that is listening for a click. When the click event occurs it executes a function on that element(el)
 		[].forEach.call(els, function(clk) {
+            // the function passes in the els array into the empty array and then calls another function passing in the element as a prop called clk
 			clk.classList.remove('active');
+            // removes the class of 'active' from any of the clk elements that have it
 		});
 		el.classList.add('active');
+        // adds the class of 'active' to whichever element was clicked (passed in as el in the first function)
 	});
 });</script>
 
