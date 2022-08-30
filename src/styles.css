@@ -63,7 +63,7 @@ header {
 }
 
 .nav-bar-list {
-	display: flex;
+	display: inline-flex;
 	width: 50vw;
 	flex-direction: row;
 	justify-content: space-around;
@@ -76,6 +76,7 @@ header {
 	min-width: 60px;
 	text-align: center;
 	cursor: pointer;
+	position: relative;
 }
 
 .nav-bar-item:after,
@@ -112,8 +113,26 @@ header {
 
 .nav-bar-item:after,
 .nav-bar-item:before {
-	bottom: 10px;
+	bottom: 0px;
 	height: 4px;
+}
+
+.nav-bar-item:after {
+	left: 0;
+	right: 39px;
+}
+
+.nav-bar-item:before {
+	right: -2px;
+	width: 13px;
+}
+
+.nav-bar-item a:before {
+	height: 0;
+	width: 4px;
+	bottom: -2px;
+	right: 7px;
+	transition: height .3s, bottom .3s;
 }
 
 /* .nav-bar-item a:hover {
@@ -122,17 +141,12 @@ header {
 } */
 .nav-bar-item a {
 	align-self: flex-end;
-	/* text-decoration: none; */
+	text-decoration: none;
 	/* color: black; */
 	font-size: 35px;
 	font-family: 'marvel';
 	min-width: 60px;
 	margin-top: 25px;
-}
-
-.one a {
-	transition: color .3s ease-out;
-	color: inherit;
 }
 
 .container {
