@@ -105,7 +105,8 @@ header {
 	max-width: 500px;
 	padding: 10px 0;
 	border-radius: 130px;
-	left: 25%;
+	left: 40%;
+	top: 10vh;
 }
 
 .initial-gif {
