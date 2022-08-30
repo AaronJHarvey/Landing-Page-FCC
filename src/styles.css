@@ -78,6 +78,20 @@ header {
 	cursor: pointer;
 }
 
+.nav-bar-item:after,
+.nav-bar-item:before,
+.nav-bar-item a:after,
+.nav-bar-item a:before {
+	color: #333333;
+	background-color: currentColor;
+}
+
+.one:before,
+.one:after,
+.one a:before,
+.one a:after {
+}
+
 /* .nav-bar-item a:hover {
 	padding: 3px 10px;
 	border-radius: 10px;
@@ -91,6 +105,11 @@ header {
 	font-family: 'marvel';
 	min-width: 60px;
 	margin-top: 25px;
+}
+
+.one a {
+	transition: color .3s ease-out;
+	color: inherit;
 }
 
 .container {
