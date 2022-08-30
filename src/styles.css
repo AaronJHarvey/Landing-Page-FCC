@@ -110,6 +110,12 @@ header {
 	background-color: #85c3e9;
 }
 
+.nav-bar-item:after,
+.nav-bar-item:before {
+	bottom: 10px;
+	height: 4px;
+}
+
 /* .nav-bar-item a:hover {
 	padding: 3px 10px;
 	border-radius: 10px;
