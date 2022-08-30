@@ -100,7 +100,7 @@ header {
 .two:before,
 .two:after,
 .two a:before,
-.two:after {
+.two a:after {
 	background-color: #f27132;
 }
 
@@ -133,6 +133,16 @@ header {
 	bottom: -2px;
 	right: 7px;
 	transition: height .3s, bottom .3s;
+}
+
+.nav-bar-item a:after {
+	height: 4px;
+	width: 34px;
+	bottom: 0px;
+	right: 8px;
+	transform: rotate(0deg);
+	transform-origin: left top;
+	transition: transform .3s, right .3s, width .3s;
 }
 
 /* .nav-bar-item a:hover {
