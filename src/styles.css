@@ -38,6 +38,7 @@ header {
 	margin: 0;
 	height: 10vh;
 	width: 50vw;
+	min-height: 65px;
 	gap: 10px;
 	min-width: 355px;
 }
@@ -46,6 +47,7 @@ header {
 	padding: 0px;
 	margin: 0;
 	height: 9.5vh;
+	min-height: 62px;
 	align-self: center;
 }
 
@@ -72,13 +74,14 @@ header {
 	list-style: none;
 	min-height: 7vh;
 	min-width: 60px;
+	text-align: center;
+	cursor: pointer;
 }
 
-.nav-bar-item a:hover {
-	/* background-color: green; */
+/* .nav-bar-item a:hover {
 	padding: 3px 10px;
 	border-radius: 10px;
-}
+} */
 
 .nav-bar-item a {
 	align-self: flex-end;
@@ -87,6 +90,7 @@ header {
 	font-size: 35px;
 	font-family: 'marvel';
 	min-width: 60px;
+	margin-top: 25px;
 }
 
 .container {
