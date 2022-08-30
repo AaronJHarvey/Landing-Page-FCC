@@ -1,0 +1,45 @@
+.speak {
+	position: relative;
+	display: inline-block;
+	min-width: 2.7em;
+	margin: 1em;
+	text-align: center;
+	cursor: pointer;
+}
+
+.speak span {
+	transition: color 0.3s ease-out;
+	color: inherit;
+}
+
+.speak:after,
+.speak:before,
+.speak span:after,
+.speak span:before {
+	color: #333333;
+	background-color: currentColor;
+	content: '';
+	position: absolute;
+	border-radius: 4px;
+}
+
+.one:before,
+.one:after,
+.one span:before,
+.one span:after {
+	background-color: #cedd3e;
+}
+
+.two:before,
+.two:after,
+.two span:before,
+.two span:after {
+	background-color: #f27132;
+}
+
+.three:before,
+.three:after,
+.three span:before,
+.three span:after {
+	background-color: #85c3e9;
+}

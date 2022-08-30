@@ -84,23 +84,40 @@ header {
 .nav-bar-item a:before {
 	color: #333333;
 	background-color: currentColor;
+	content: '';
+	position: absolute;
+	border-radius: 4px;
 }
 
 .one:before,
 .one:after,
 .one a:before,
 .one a:after {
+	background-color: #cedd3e;
+}
+
+.two:before,
+.two:after,
+.two a:before,
+.two:after {
+	background-color: #f27132;
+}
+
+.three:before,
+.three:after,
+.three a:before,
+.three a:after {
+	background-color: #85c3e9;
 }
 
 /* .nav-bar-item a:hover {
 	padding: 3px 10px;
 	border-radius: 10px;
 } */
-
 .nav-bar-item a {
 	align-self: flex-end;
-	text-decoration: none;
-	color: black;
+	/* text-decoration: none; */
+	/* color: black; */
 	font-size: 35px;
 	font-family: 'marvel';
 	min-width: 60px;
