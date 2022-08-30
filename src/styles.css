@@ -145,6 +145,21 @@ header {
 	transition: transform .3s, right .3s, width .3s;
 }
 
+.nav-bar-item.active a::before {
+	height: 20px;
+	bottom: -18px;
+}
+
+.nav-bar-item.active a:after {
+	right: 1px;
+	width: 40px;
+	transform: rotate(30deg);
+}
+.nav-bar-item.active,
+.nav-bar-item.active {
+	outline: 0;
+}
+
 /* .nav-bar-item a:hover {
 	padding: 3px 10px;
 	border-radius: 10px;
@@ -152,7 +167,7 @@ header {
 .nav-bar-item a {
 	align-self: flex-end;
 	text-decoration: none;
-	/* color: black; */
+
 	font-size: 35px;
 	font-family: 'marvel';
 	min-width: 60px;
