@@ -213,6 +213,16 @@ header {
 	margin: auto;
 }
 
+#about {
+	margin-top: 50px;
+	background-color: green;
+	text-align: center;
+}
+
+#about h1 {
+	font-size: 5rem;
+}
+
 @keyframes marvel {
 	0% {
 		background-image: url(../Photos/Marvel-Flip.gif);
