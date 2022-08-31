@@ -160,14 +160,9 @@ header {
 	outline: 0;
 }
 
-/* .nav-bar-item a:hover {
-	padding: 3px 10px;
-	border-radius: 10px;
-} */
 .nav-bar-item a {
 	align-self: flex-end;
 	text-decoration: none;
-
 	font-size: 35px;
 	font-family: 'marvel';
 	min-width: 60px;
@@ -180,7 +175,7 @@ header {
 
 .main-logo-container {
 	position: relative;
-	background-color: green;
+	/* background-color: green; */
 	height: 45vh;
 	width: 30vw;
 	margin-top: 50px;
@@ -196,7 +191,7 @@ header {
 .HiddenFor10Seconds {
 	position: absolute;
 	height: 35vh;
-	width: 20vw;
+	width: 18.5vw;
 	max-width: 500px;
 	padding: 10px 0;
 	border-radius: 130px;
