@@ -249,4 +249,33 @@ header {
 	}
 }
 
+@keyframes display {
+	@keyframes display {
+		0% {
+			transform: translateX(200px);
+			opacity: 0;
+		}
+
+		10% {
+			transform: translateX(0);
+			opacity: 1;
+		}
+
+		20% {
+			transform: translateX(0);
+			opacity: 1;
+		}
+
+		30% {
+			transform: translateX(-500px);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateX(-500px);
+			opacity: 0;
+		}
+	}
+}
+
 /* Add @media for width <700px */
