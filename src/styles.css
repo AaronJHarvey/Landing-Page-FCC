@@ -11,7 +11,7 @@
 }
 
 body {
-	height: 150vh;
+	height: 100vh;
 	width: 100vw;
 	background-image: url(../Photos/Marvel-Collage.jpg);
 }
@@ -267,6 +267,15 @@ header {
 	animation-delay: 12s;
 }
 
+.text-ctn {
+	position: absolute;
+	color: green;
+	left: 50%;
+	bottom: 50%;
+	display: inline;
+	width: 25%;
+}
+
 /* .img1-text,
 .img2-text,
 .img3-text,
@@ -274,18 +283,20 @@ header {
 .img5-text {
 	color: green;
 	position: absolute;
-}
+} */
 
-.img1-text,
+/* .img1-text,
 .img3-text,
 .img5-text {
-	left: 60%;
-}
+	left: 30%;
+	top: 45%;
+	font-size: 1.2rem;
+} */
 
 .img2-text,
 .img4-text {
 	left: 30%;
-} */
+}
 
 @keyframes marvel {
 	0% {
