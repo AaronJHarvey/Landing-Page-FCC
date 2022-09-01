@@ -243,6 +243,7 @@ header {
 	opacity: 0;
 	animation: display 15s infinite;
 	margin-bottom: 100px;
+	min-width: 430px;
 }
 
 .img-ctn > img,
@@ -252,7 +253,6 @@ header {
 .img-ctn > .img4-text,
 .img-ctn > .img5-text {
 	margin-bottom: 100px;
-	/* left: 500px; */
 	width: 70%;
 }
 
@@ -276,6 +276,7 @@ header {
 	bottom: 50%;
 	width: 25%;
 	display: inline;
+	min-width: 155px;
 }
 
 .text-ctn-right {
