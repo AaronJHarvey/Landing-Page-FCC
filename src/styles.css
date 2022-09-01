@@ -272,7 +272,7 @@ header {
 .text-ctn-right,
 .text-ctn-left {
 	position: absolute;
-	color: green;
+	color: whitesmoke;
 	bottom: 50%;
 	width: 25%;
 	display: inline;
@@ -286,17 +286,12 @@ header {
 	right: 50%;
 }
 
-/* .img1-text,
-.img3-text,
-.img5-text {
-	left: 30%;
-	top: 45%;
-	font-size: 1.2rem;
-} */
-
+.img1-text,
 .img2-text,
-.img4-text {
-	left: 30%;
+.img3-text,
+.img4-text,
+.img5-text {
+	font-size: 1.75rem;
 }
 
 @keyframes marvel {
