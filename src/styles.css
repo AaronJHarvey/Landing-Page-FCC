@@ -269,23 +269,22 @@ header {
 	animation-delay: 12s;
 }
 
-.text-ctn {
+.text-ctn-right,
+.text-ctn-left {
 	position: absolute;
 	color: green;
-	left: 50%;
 	bottom: 50%;
-	display: inline;
 	width: 25%;
+	display: inline;
 }
 
-/* .img1-text,
-.img2-text,
-.img3-text,
-.img4-text,
-.img5-text {
-	color: green;
-	position: absolute;
-} */
+.text-ctn-right {
+	left: 50%;
+}
+
+.text-ctn-left {
+	right: 50%;
+}
 
 /* .img1-text,
 .img3-text,
