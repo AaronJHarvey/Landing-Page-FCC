@@ -222,12 +222,13 @@ header {
 	margin: auto;
 }
 
-.main-text {
+.intro-text {
 	display: flex;
+	margin-top: 25px;
 	/* background-color: blue; */
 }
 
-.main-text > h1 {
+/* .intro-text > h1 {
 	font-size: 4rem;
 	width: 55%;
 	left: 24%;
@@ -238,6 +239,25 @@ header {
 	margin-top: 30px;
 	font-family: 'RobotoCondensedBold';
 	color: #ccc6c6;
+} */
+
+.intro-text > * {
+	font-family: 'RobotoCondensedBold';
+	position: absolute;
+	width: 100%;
+	color: #ccc6c6;
+	text-align: center;
+}
+
+.intro-text > h1 {
+	/* margin-top: 30px; */
+	font-size: 5rem;
+}
+
+.intro-text > h2 {
+	margin-top: 100px;
+	font-size: 2rem;
+	width: 100%;
 }
 
 #about {
