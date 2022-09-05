@@ -261,6 +261,16 @@ header {
 	width: 100%;
 }
 
+.intro-video {
+	/* background-color: green; */
+	/* margin: auto; */
+	display: flex;
+}
+
+.intro-video > iframe {
+	margin: auto;
+}
+
 #about {
 	margin-top: 175px;
 	/* padding-top: 100px; */
