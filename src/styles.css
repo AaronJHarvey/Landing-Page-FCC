@@ -34,6 +34,7 @@ header {
 	background-color: rgba(89, 74, 74, 0.389);
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
+	z-index: 1;
 	/* background-color: blue; */
 }
 
@@ -226,6 +227,7 @@ header {
 	display: flex;
 	margin-top: 25px;
 	/* background-color: blue; */
+	margin-bottom: 250px;
 }
 
 /* .intro-text > h1 {
@@ -261,10 +263,14 @@ header {
 
 #about {
 	margin-top: 175px;
-	padding-top: 250px;
+	/* padding-top: 100px; */
 	/* background-color: green; */
 	text-align: center;
 }
+
+/* #about h1 {
+	font-size: 5rem;
+} */
 
 .pic-ctn {
 	position: relative;
