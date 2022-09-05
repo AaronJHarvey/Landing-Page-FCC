@@ -261,14 +261,10 @@ header {
 
 #about {
 	margin-top: 175px;
-	padding-top: 100px;
+	padding-top: 250px;
 	/* background-color: green; */
 	text-align: center;
 }
-
-/* #about h1 {
-	font-size: 5rem;
-} */
 
 .pic-ctn {
 	position: relative;
