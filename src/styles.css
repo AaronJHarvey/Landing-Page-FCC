@@ -18,11 +18,17 @@
 body {
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(rgba(23, 23, 81, 0.646), rgba(11, 37, 82, 0.632), rgba(22, 22, 87, 0.645)),
+	background-image: linear-gradient(rgba(60, 60, 158, 0.589), rgba(17, 52, 112, 0.526), rgba(60, 60, 158, 0.589)),
 		url(../Photos/Marvel-Collage.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+/* body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 255, 0.167)), url(/Photos/Marvel-Collage.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} */
 
 header {
 	padding: 0;
@@ -249,7 +255,7 @@ header {
 	font-family: 'RobotoCondensedBold';
 	position: absolute;
 	width: 100%;
-	color: #ccc6c6;
+	color: #ebd9d9;
 	text-align: center;
 }
 
