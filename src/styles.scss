@@ -315,7 +315,7 @@ header {
 .img-ctn > .img4-text,
 .img-ctn > .img5-text {
 	margin-bottom: 100px;
-	width: 70%;
+	width: 65%;
 }
 
 .img-ctn:nth-child(2) {
@@ -385,17 +385,17 @@ header {
 
 @keyframes display {
 	0% {
-		transform: translateX(100px);
+		transform: translateX(90px);
 		opacity: 0;
 	}
 
 	10% {
-		transform: translateX(100px);
+		transform: translateX(90px);
 		opacity: 1;
 	}
 
 	20% {
-		transform: translateX(100px);
+		transform: translateX(90px);
 		opacity: 1;
 	}
 
@@ -411,6 +411,35 @@ header {
 }
 
 /* Add @media for width <700px */
+
+@media (max-width: 1315px) {
+	@keyframes display {
+		0% {
+			transform: translateX(0px);
+			opacity: 0;
+		}
+
+		10% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+
+		20% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+
+		30% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+	}
+}
 @media (max-width: 875px) {
 	.img1-text,
 	.img2-text,
