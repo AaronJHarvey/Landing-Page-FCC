@@ -217,6 +217,20 @@ header {
   /* background-image: linear-gradient(rgba(60, 60, 158, 0.749), rgba(17, 52, 112, 0.701)); */
 }
 
+.card-container {
+  border: 1px solid #06ff06;
+  position: relative;
+  margin: auto;
+  max-height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  aspect-ratio: 16/9;
+}
+
 .intro-text {
   display: -webkit-box;
   display: -ms-flexbox;
