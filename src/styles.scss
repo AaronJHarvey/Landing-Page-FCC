@@ -199,6 +199,14 @@ header {
 	display: flex;
 	justify-content: center;
 	aspect-ratio: 16/9;
+
+	.card {
+		border: 1px solid blue;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		perspective: 500px;
+	}
 }
 
 // .main-logo-container {

@@ -231,6 +231,15 @@ header {
   aspect-ratio: 16/9;
 }
 
+.card-container .card {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+
 .intro-text {
   display: -webkit-box;
   display: -ms-flexbox;
