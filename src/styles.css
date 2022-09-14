@@ -253,6 +253,22 @@ header {
           transform-style: preserve-3d;
 }
 
+.card-container .card-front {
+  border: 1px solid #e80ee8;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
 .intro-text {
   display: -webkit-box;
   display: -ms-flexbox;
