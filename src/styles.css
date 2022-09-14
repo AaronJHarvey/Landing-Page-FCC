@@ -240,6 +240,13 @@ header {
           perspective: 500px;
 }
 
+.card-container .card-inner {
+  border: 1px solid orange;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .intro-text {
   display: -webkit-box;
   display: -ms-flexbox;
