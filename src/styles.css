@@ -217,7 +217,6 @@ header {
 }
 
 .card-container {
-  border: 1px solid #06ff06;
   position: relative;
   margin: auto;
   max-height: 50%;
@@ -231,16 +230,17 @@ header {
 }
 
 .card-container .card {
-  border: 1px solid blue;
   height: 100%;
   width: 100%;
   position: relative;
   -webkit-perspective: 500px;
           perspective: 500px;
+  border-radius: 25px;
+  -webkit-box-shadow: 15px 15px 50px black;
+          box-shadow: 15px 15px 50px black;
 }
 
 .card-container .card-inner {
-  border: 1px solid orange;
   height: 100%;
   width: 100%;
   position: relative;
@@ -250,10 +250,10 @@ header {
   transition: transform .8s, -webkit-transform .8s;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  border-radius: 25px;
 }
 
 .card-container .card-front {
-  border: 1px solid #e80ee8;
   height: 100%;
   width: 100%;
   display: flex;
@@ -266,11 +266,11 @@ header {
   -ms-flex-pack: center;
   display: -webkit-box;
   display: -ms-flexbox;
+  border-radius: 25px;
 }
 
 .card-container .logo-container {
   position: relative;
-  border: 5px solid aqua;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -284,6 +284,7 @@ header {
   align-items: center;
   background-image: url(/Photos/Watcher.jpeg);
   background-size: cover;
+  border-radius: 25px;
 }
 
 .card-container .gif {
@@ -293,11 +294,13 @@ header {
   -webkit-animation: marvel 10s ease-out;
   animation: marvel 10s ease-out;
   z-index: 1;
+  border-radius: 25px;
 }
 
 .card-container #logo-image-main {
   position: absolute;
   height: 75%;
+  border-radius: 25px;
 }
 
 .card-container .card-front,
@@ -307,6 +310,7 @@ header {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 25px;
 }
 
 .card-container .card:hover .card-inner {
@@ -318,6 +322,7 @@ header {
   margin: auto;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+  border-radius: 25px;
 }
 
 .card-container .card-back .vid-container {
@@ -330,6 +335,7 @@ header {
 
 .card-container .card-back .vid-container > iframe {
   margin: auto;
+  border-radius: 25px;
 }
 
 .intro-text {
