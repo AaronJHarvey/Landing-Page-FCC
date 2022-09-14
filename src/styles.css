@@ -287,9 +287,13 @@ header {
   position: absolute;
   height: 100%;
   width: 100%;
-  -webkit-animation: marvel 10s ease-out;
-  animation: marvel 10s ease-out;
   z-index: 1;
+}
+
+.card-container #logo-image-main {
+  position: absolute;
+  height: 75%;
+  left: 40%;
 }
 
 .intro-text {
