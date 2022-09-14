@@ -232,7 +232,21 @@ header {
 		display: -webkit-box;
 		display: -ms-flexbox;
 	}
-}
+
+	.logo-container {
+		border: 1px solid blue;
+		height: 100%;
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-align: center;
+		align-items: center;
+		background-image: url(/Photos/Watcher.jpeg);
+		background-size: cover;
+	}
+S}
 
 // .main-logo-container {
 // 	position: relative;
