@@ -233,13 +233,17 @@ header {
 	}
 
 	.logo-container {
-		border: 1px solid blue;
+		position: relative;
+		border: 5px solid aqua;
 		height: 100%;
 		width: 100%;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
 		background-image: url(/Photos/Watcher.jpeg);
@@ -250,15 +254,14 @@ header {
 		position: absolute;
 		height: 100%;
 		width: 100%;
-		// -webkit-animation: marvel 10s ease-out;
-		// animation: marvel 10s ease-out;
+		-webkit-animation: marvel 10s ease-out;
+		animation: marvel 10s ease-out;
 		z-index: 1;
 	}
 
 	#logo-image-main {
 		position: absolute;
 		height: 75%;
-		left: 40%;
 	}
 }
 
