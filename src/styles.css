@@ -227,6 +227,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   aspect-ratio: 16/9;
+  border-radius: 25px;
+  border: none;
+  background: rgba(0, 0, 0, 0.435);
 }
 
 .card-container .card {
@@ -323,6 +326,8 @@ header {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   border-radius: 25px;
+  -webkit-box-shadow: 15px 15px 50px black;
+          box-shadow: 15px 15px 50px black;
 }
 
 .card-container .card-back .vid-container {

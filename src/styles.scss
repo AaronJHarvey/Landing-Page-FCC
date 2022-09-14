@@ -197,6 +197,9 @@ header {
 	display: flex;
 	justify-content: center;
 	aspect-ratio: 16/9;
+	border-radius: 25px;
+	border: none;
+	background: rgba(0, 0, 0, 0.435);
 
 	.card {
 		height: 100%;
@@ -284,6 +287,7 @@ header {
 		margin: auto;
 		transform: rotateY(180deg);
 		border-radius: 25px;
+		box-shadow: 15px 15px 50px black;
 
 		.vid-container {
 			height: 100%;
