@@ -276,6 +276,11 @@ header {
 	.card:hover .card-inner {
 		transform: rotateY(180deg);
 	}
+
+	.card-back {
+		margin: auto;
+		transform: rotateY(180deg);
+	}
 }
 
 // .main-logo-container {

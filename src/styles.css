@@ -314,6 +314,12 @@ header {
           transform: rotateY(180deg);
 }
 
+.card-container .card-back {
+  margin: auto;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
 .intro-text {
   display: -webkit-box;
   display: -ms-flexbox;
