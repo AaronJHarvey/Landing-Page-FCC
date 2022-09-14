@@ -229,6 +229,8 @@ header {
 		-ms-flex-align: center;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
 	}
 }
 
