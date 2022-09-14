@@ -280,6 +280,16 @@ header {
 	.card-back {
 		margin: auto;
 		transform: rotateY(180deg);
+
+		.vid-container {
+			height: 100%;
+			width: 100%;
+			display: flex;
+
+			> iframe {
+				margin: auto;
+			}
+		}
 	}
 }
 
