@@ -199,7 +199,6 @@ header {
 	aspect-ratio: 16/9;
 	border-radius: 25px;
 	border: none;
-	background: rgba(0, 0, 0, 0.435);
 
 	.card {
 		height: 100%;
@@ -207,7 +206,7 @@ header {
 		position: relative;
 		perspective: 500px;
 		border-radius: 25px;
-		box-shadow: 15px 15px 50px black;
+		// box-shadow: 15px 15px 50px black;
 	}
 
 	.card-inner {
@@ -233,6 +232,7 @@ header {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		border-radius: 25px;
+		box-shadow: 15px 15px 50px black;
 	}
 
 	.logo-container {
