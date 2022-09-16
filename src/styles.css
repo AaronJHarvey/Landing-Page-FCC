@@ -23,6 +23,10 @@ body {
   background-image: linear-gradient(rgba(60, 60, 158, 0.589), rgba(17, 52, 112, 0.526), rgba(60, 60, 158, 0.589)), url(../Photos/Marvel-Collage.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* body {
