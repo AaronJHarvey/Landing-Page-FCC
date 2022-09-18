@@ -239,8 +239,6 @@ header {
   height: 100%;
   width: 100%;
   position: relative;
-  -webkit-perspective: 500px;
-          perspective: 500px;
   border-radius: 25px;
 }
 
